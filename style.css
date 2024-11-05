@@ -1,0 +1,65 @@
+/* PLEASE START THE SERVER BEFORE USE 
+ HERE ARE THE STEPS:
+ cd .\nodeserver\
+ nodemon .\index.js\ 
+ 
+ if you face any issue, refer to the video on yt: whatsapp clone chat by codewithharry(web development projects) */
+
+body{
+    background-image: url('scenery.avif');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1{
+    text-align:center;
+}
+
+.main{
+    
+    margin: auto;
+    background-color: rgba(255,255,255,0.4);
+    backdrop-filter:blur(5px);
+    max-width: 955px;
+    height:70vh;
+    overflow-y: auto;
+    margin-bottom: 23px;
+    
+    border-radius: 50px;
+}
+.message{
+    
+    background-color: red;
+    width:30%;
+    padding:10px;
+    margin: 20px 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.left{float:left;
+clear: both;
+}
+.right{float:right;
+clear: both;
+}
+#sec{
+    display:block;
+    margin:auto;
+    width:100%;
+    text-align: center;
+}
+#ip{
+    width:62%;
+    padding:5px 15px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  outline: none;
+  font-size: larger;
+}
+.btn{
+    border-radius: 10px;
+    font-size: larger;
+}
